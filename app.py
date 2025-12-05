@@ -27,7 +27,7 @@ st.title("🎮 Benvenuto nella Game Analytics Dashboard")
 # Testo introduttivo
 st.markdown(
     """
-    Questa dashboard permette di esplorare e analizzare il catalogo videogiochi dal 2000 in poi.  
+    Questa dashboard permette di esplorare e analizzare il catalogo videogiochi.
     Puoi navigare tra diverse sezioni per ottenere insight sulle vendite, sui generi e piattaforme, 
     e stimare la probabilità di successo commerciale dei nuovi titoli.
     """
