@@ -213,11 +213,11 @@ col_c, col_d = st.columns(2)
 # distribuzione critic score e user score
 with col_c:
     st.subheader("🎲 Distribuzione Critic Score")
-    st.image(r" my_graphs/2.png", caption="Didascalia", width=300)
+    st.image(r"my_graphs/2.png", caption="Didascalia", width=300)
 
 with col_d:
     st.subheader("🎲 Distribuzione User Score")
-    st.image(r" my_graphs/output.png", caption="Didascalia", width=300)
+    st.image(r"my_graphs/output.png", caption="Didascalia", width=300)
 
 
 
