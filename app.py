@@ -1,8 +1,8 @@
 import streamlit as st
 
 # definisci le pagine
-page1 = st.Page(r"pages\DataVisualization📊.py", title="Data visualization", icon="📊")
-page2 = st.Page(r"pages\Machine Learning Model ⚙️.py", icon="🤖")
+page1 = st.Page(r"pages/DataVisualization📊.py", title="Data visualization", icon="📊")
+page2 = st.Page(r"pages/Machine Learning Model ⚙️.py", icon="🤖")
 
 # crea la navigazione
 pg = st.navigation([page1, page2])
