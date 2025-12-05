@@ -18,7 +18,7 @@ st.set_page_config(
 # -------------------------------------------------------------------
 # DATA
 # -------------------------------------------------------------------
-DATA_PATH = Path(r"data\vgsales_clean.csv")
+DATA_PATH = Path(r"data/vgsales_clean.csv")
 
 @st.cache_data
 def load_data() -> pd.DataFrame:
