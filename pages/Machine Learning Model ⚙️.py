@@ -7,12 +7,12 @@ import seaborn as sns
 
 sklearn.set_config(transform_output='pandas')
 
-df = pd.read_csv(r'data\vgsales_clean.csv')
+df = pd.read_csv(r'data/vgsales_clean.csv')
 df.dropna(axis=0, inplace=True)
 df = df[~df['Rating'].isin(["EC", "K-A", "RP", "AO"])]
 
-model = joblib.load(r'davide\modello_finale.joblib')
-encoder = joblib.load(r'davide\encoder_finale.joblib')
+model = joblib.load(r'davide/modello_finale.joblib')
+encoder = joblib.load(r'davide/encoder_finale.joblib')
 
 st.set_page_config(
     page_title="Previsione Vendite Videogiochi",
